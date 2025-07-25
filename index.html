@@ -9,7 +9,7 @@
             padding: 0;
         }
         .btn-fade {
-            opacity: 0;
+            opacity: 0.5;
             background-color: white !important;
             color: #333 !important;
             border: 1px solid #ccc;
@@ -26,6 +26,11 @@
             margin-top: 0 !important;
             padding-top: 0 !important;
             color: #fff;
+            display: flex;
+            justify-content: center;   /* 垂直居中 */
+            align-items: center;       /* 水平居中 */
+            flex-direction: column;
+            min-height: 60vh;
         }
     </style>
 </head>
@@ -36,17 +41,11 @@
                 <div class="col-12">
                     <h1 class="title mb-2 mt-0 pt-0 text-center display-4">Quicker</h1>
                     <h2 class="text-center display-4" style="letter-spacing: 3px; line-height: 1.5">
-                        您的指尖工具箱
+                        指尖工具箱
                     </h2>
-                    <div class="text-center ">
-                        操作更少，收获更多！
-                    </div>
                     <div class="mt-5 mb-4 text-center row align-items-center justify-content-center">
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                             <a class="btn-fade" href="/Download">立即下载</a>
-                        </div>
-                        <div class="col-12 mt-3 mt-sm-0 col-sm-6 col-md-4 col-lg-3">
-                            <a class="btn-fade" href="/Share">动作库</a>
                         </div>
                     </div>
                 </div>

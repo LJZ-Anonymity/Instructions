@@ -1,11 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instructions", "Instructions", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Error.html = Error.html
+		index.html = index.html
+		Privacy.html = Privacy.html
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EC3D39AE-B89E-4143-80C7-0FB0A50D29B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Download", "Download", "{C87BC131-AD0E-4560-9817-0DE4F3D79C48}"
+	ProjectSection(SolutionItems) = preProject
+		Download\History.html = Download\History.html
+		Download\Index.html = Download\Index.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC3D39AE-B89E-4143-80C7-0FB0A50D29B1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C87BC131-AD0E-4560-9817-0DE4F3D79C48} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B91A65FE-4393-457B-B053-99377413B7DA}
